@@ -1,5 +1,5 @@
-BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
- BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\nblocks.h mbed-os/mbed.h \
+BUILD\LPC1768\GCC_ARM\nlib\Ticker\ticker.o: nlib\Ticker\ticker.cpp \
+ BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\Ticker\ticker.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/platform.h \
  mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
@@ -75,6 +75,4 @@ BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib\nworkbench.h nlib\fifo.h nlib\BSP\bsp.h nlib\Ticker\ticker.h \
- nlib/nworkbench.h nlib\MAX7219PSU\max7219psu.h nlib\FlipFlop\flipflop.h \
- nlib\GPOUT\gpout.h nlib\Counter\counter.h
+ nlib/nworkbench.h nlib/fifo.h

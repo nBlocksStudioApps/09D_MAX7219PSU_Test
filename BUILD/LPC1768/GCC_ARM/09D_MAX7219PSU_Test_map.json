@@ -24,7 +24,7 @@
     {
         "module": "[lib]\\gcc.a",
         "size": {
-            ".text": 4316,
+            ".text": 4604,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -57,9 +57,9 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 134,
+            ".text": 474,
             ".data": 0,
-            ".bss": 164,
+            ".bss": 564,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -68,7 +68,7 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 1484,
+            ".text": 1530,
             ".data": 0,
             ".bss": 24,
             ".text-delta": 0,
@@ -110,9 +110,53 @@
         }
     },
     {
+        "module": "nlib\\Counter",
+        "size": {
+            ".text": 148,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\FlipFlop",
+        "size": {
+            ".text": 160,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\GPOUT",
+        "size": {
+            ".text": 196,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "module": "nlib\\MAX7219PSU",
         "size": {
-            ".text": 938,
+            ".text": 886,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\Ticker",
+        "size": {
+            ".text": 318,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -123,9 +167,9 @@
     {
         "module": "nlib\\nworkbench.o",
         "size": {
-            ".text": 500,
+            ".text": 560,
             ".data": 0,
-            ".bss": 84,
+            ".bss": 88,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -133,9 +177,9 @@
     },
     {
         "summary": {
-            "static_ram": 3812,
+            "static_ram": 4216,
             "static_ram_delta": 0,
-            "total_flash": 39088,
+            "total_flash": 40592,
             "total_flash_delta": 0
         }
     }
