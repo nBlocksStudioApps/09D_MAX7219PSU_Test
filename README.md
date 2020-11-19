@@ -48,7 +48,7 @@ width = 400
 </p>
 
 ----
-A test Design with 6 Nodes
+A test schematic Design with 6 Nodes :heavy_check_mark:
 
 </p>
 <p align="center">
@@ -59,7 +59,7 @@ width = 400
 </p>
 
 ----
-The 6 Nodes Design is translated successfully
+The 6 Nodes Design is Translated successfully with the nBlocksStudio Command Line Tool :heavy_check_mark:
 
 </p>
 <p align="center">
@@ -70,7 +70,7 @@ width = 600
 </p>
 
 ----
-The Auto generated main.cpp for the 6 Nodes Design
+The Auto generated main.cpp for the 6 Nodes Design, open in mbed-studio :heavy_check_mark:
 
 </p>
 <p align="center">
@@ -81,7 +81,7 @@ width = 600
 </p>
 
 ----
-Compilation Complete
+Compilation with mbed-studio (setup for GCC) Complete :heavy_check_mark:
 
 </p>
 <p align="center">

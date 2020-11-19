@@ -14,12 +14,12 @@
 #include "nlib\Counter\counter.h"
 
 // -*-*- List of node objects -*-*-
-nBlock_Ticker          nb_nBlockNode0_Ticker     (1000);
+nBlock_Ticker          nb_nBlockNode0_Ticker     (10);
 nBlock_MAX7219PSU      nb_nBlockNode1_MAX7219PSU (p5, p6, p7, p8, 8, 7);
 nBlock_Ticker          nb_nBlockNode2_Ticker     (1000);
 nBlock_FlipFlop        nb_nBlockNode3_FlipFlop   (0);
 nBlock_GPOUT           nb_nBlockNode4_GPOUT      (P2_1, PullNone, 1);
-nBlock_Counter         nb_nBlockNode5_Counter    (10);
+nBlock_Counter         nb_nBlockNode5_Counter    (10000);
 
 // -*-*- List of connection objects -*-*-
 nBlockConnection    n_conn0( &nb_nBlockNode3_FlipFlop,   0,    &nb_nBlockNode4_GPOUT,      0);
