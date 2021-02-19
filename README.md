@@ -24,7 +24,7 @@ Counting to 3
 </p>
 <p align="center">
 <img
-src="img/10.GIF"
+src="img/10.gif"
 width = 600
 />
 </p>
