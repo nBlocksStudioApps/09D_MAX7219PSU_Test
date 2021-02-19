@@ -2,7 +2,7 @@
 C++ Test Project for the Node **MAX7219PSU**
 
 Testing Log:
-*  Single Node Design Translated and Compiled, to validate the new Node code :heavy_check_mark:
+
 *  A 6 Nodes Design Created Translated and Compiled :heavy_check_mark:
 *  The Design worked initially  with mbed LPC1768 board and a legacy 5-Digits-MAX7219-board :heavy_check_mark:
 *  The Design worked succesfuly with of the shelf 8 digit boards :heavy_check_mark:
@@ -17,6 +17,18 @@ src="img/05.PNG"
 width = 400
 />
 </p>
+
+----
+A test schematic Design with 6 Nodes :heavy_check_mark:
+
+</p>
+<p align="center">
+<img
+src="img/01.gif"
+width = 400
+/>
+</p>
+
 
 ----
 Counting to 3
